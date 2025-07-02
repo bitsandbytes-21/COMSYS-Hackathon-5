@@ -56,14 +56,14 @@ use:
 !pip install tensorflow matplotlib scikit-learn
 ```
 ### Training
-Run task_b.ipynb
+Run task-b.ipynb
 Replace the dataset path with your local path
 
 This trains the Siamese model and saves it as face_verifier.h5.
 
 ### Testing
 
-Run task_b_test.ipynb
+Run task-b-test-script.ipynb
 
 This evaluates the model on the validation dataset and:
 
