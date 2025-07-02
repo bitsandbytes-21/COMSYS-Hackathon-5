@@ -29,6 +29,7 @@ The model will be saved as gender_classification.h5
 Training accuracy/loss and validation accuracy/loss will be plotted
 
 Optional: Enable GPU (if local)
+
 Ensure TensorFlow detects GPU:
 ```python
 from tensorflow.python.client import device_lib
@@ -46,7 +47,8 @@ If the input image matches an image from **another person's folder**, it's a **n
 
 ### 🚀 Getting Started
 #### 1. Install Dependencies
-Similar to Task A, open notebook cell
+Similar to Task A, open notebook cell.
+
 Make sure you have TensorFlow 2.x installed.
 Tensorflow will not work with python version above 3.11. Please try to use python 3.10 to get best performance.
 use:
