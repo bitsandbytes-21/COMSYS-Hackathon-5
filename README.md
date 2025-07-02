@@ -28,6 +28,14 @@ The model will be saved as gender_classification.h5
 
 Training accuracy/loss and validation accuracy/loss will be plotted
 
+Optional: Enable GPU (if local)
+Ensure TensorFlow detects GPU:
+```python
+from tensorflow.python.client import device_lib
+device_lib.list_local_devices()
+
+```
+
 ## Task B
 ### Objective
 The goal of this project is to match an input face image (or its distorted version) to its correct identity match.
