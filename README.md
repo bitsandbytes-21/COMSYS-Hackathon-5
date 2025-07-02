@@ -4,7 +4,7 @@
 This project uses a **transfer learning-based deep learning model** (ResNet50) to classify face images as either **male** or **female**.
 ### 🚀 Getting Started
 #### 1. Install Dependencies
-rom your terminal or notebook cell:
+From your terminal or notebook cell:
 ```bash
 !pip install tensorflow matplotlib scikit-learn pillow
 
@@ -44,14 +44,16 @@ If the input image matches an image from **another person's folder**, it's a **n
 
 ### 🚀 Getting Started
 #### 1. Install Dependencies
+Similar to Task A, open notebook cell
 Make sure you have TensorFlow 2.x installed.
 Tensorflow will not work with python version above 3.11. Please try to use python 3.10 to get best performance.
 use:
 ```bash
-pip install tensorflow
+!pip install tensorflow matplotlib scikit-learn
 ```
 ### Training
 Run task_b.ipynb
+Replace the dataset path with your local path
 
 This trains the Siamese model and saves it as face_verifier.h5.
 
@@ -66,3 +68,6 @@ This evaluates the model on the validation dataset and:
 2. Plots confusion matrix
 
 3. Prints Accuracy, Precision, Recall, F1-Score
+
+### Run streamlit app for both task (Optional)
+
