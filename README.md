@@ -1,5 +1,33 @@
 # Comsys-hackathon-5 by Team Face Monk
 ## Task A
+### Objective
+This project uses a **transfer learning-based deep learning model** (ResNet50) to classify face images as either **male** or **female**.
+### 🚀 Getting Started
+#### 1. Install Dependencies
+rom your terminal or notebook cell:
+```bash
+!pip install tensorflow matplotlib scikit-learn pillow
+
+```
+Run all cells
+Go to Kernel → Restart & Run All, or run cell by cell.
+
+Make sure:
+
+The dataset folders are correctly referenced:
+```python
+train_path = "/kaggle/input/comsys/Comys_Hackathon5/Task_A/train"
+val_path   = "/kaggle/input/comsys/Comys_Hackathon5/Task_A/val"
+
+```
+Replace the paths with your local dataset paths
+
+After training:
+
+The model will be saved as gender_classification.h5
+
+Training accuracy/loss and validation accuracy/loss will be plotted
+
 ## Task B
 ### Objective
 The goal of this project is to match an input face image (or its distorted version) to its correct identity match.
@@ -16,11 +44,12 @@ pip install tensorflow
 ```
 ### Training
 Run task_b.ipynb
+
 This trains the Siamese model and saves it as face_verifier.h5.
 
 ### Testing
 
-run task_b_test.ipynb
+Run task_b_test.ipynb
 
 This evaluates the model on the validation dataset and:
 
