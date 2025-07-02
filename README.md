@@ -15,16 +15,13 @@ use:
 pip install tensorflow
 ```
 ### Training
-
-```bash
-run task_b.ipynb
-```
+Run task_b.ipynb
 This trains the Siamese model and saves it as face_verifier.h5.
 
 ### Testing
-```bash
+
 run task_b_test.ipynb
-```
+
 This evaluates the model on the validation dataset and:
 
 1. Shows prediction samples with their similarity scores
