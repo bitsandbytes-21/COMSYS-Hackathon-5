@@ -35,6 +35,8 @@ from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
 
 ```
+###  Notes
+The trained model expects input shape (224, 224, 3) and pixel values scaled to [0, 1].
 
 ## Task B
 ### Objective
@@ -68,6 +70,43 @@ This evaluates the model on the validation dataset and:
 2. Plots confusion matrix
 
 3. Prints Accuracy, Precision, Recall, F1-Score
+###  Notes
+The trained model expects input shape (160, 160, 3).
+Training time will depend on dataset size and hardware (GPU/CPU)
 
-### Run streamlit app for both task (Optional)
+You can reduce training time by:
+
+1. Limiting number of training pairs (e.g. 2000–3000)
+
+2. Reducing number of epochs
+
+
+## Run streamlit app for both task (Optional)
+### ⚙️ Setup Instructions
+
+#### 1️⃣ Create Virtual Environment
+
+```bash
+python -m venv myenv
+```
+#### Activate Environment
+For windows:
+
+```bash
+myenv\Scripts\activate
+
+```
+For macOS/Linux
+```bash
+source myenv/bin/activate
+```
+####  Install Dependencies
+Install all dependencies for each task as mentioned above along with Streamlit
+
+#####  Run App
+```bash
+streamlit run app.py
+
+```
+This will open the app in your browser at http://localhost:8501.
 
