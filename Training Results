@@ -1,3 +1,26 @@
+Training Results:
+
+Task A:
+Classification Report (Training Set):
+              precision    recall  f1-score   support
+
+      female     0.1589    0.3036    0.2086       303
+        male     0.8434    0.6999    0.7650      1623
+
+    accuracy                         0.6376      1926
+   macro avg     0.5011    0.5018    0.4868      1926
+weighted avg     0.7357    0.6376    0.6775      1926
+
+Task B  Training :
+Training Set Evaluation:
+Accuracy:  0.9964
+Precision: 0.9964
+Recall:    1.0000
+F1 Score:  0.9982
+
+
+Test results
+
 Task A:
 Accuracy:  0.7796
 Precision: 0.8207
