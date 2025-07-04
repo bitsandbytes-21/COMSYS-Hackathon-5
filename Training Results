@@ -1,0 +1,11 @@
+Task A:
+Accuracy:  0.7796
+Precision: 0.8207
+Recall:    0.7796
+F1 Score:  0.7942
+
+Task B:
+Accuracy:  0.8630573248407644
+Precision: 0.8626132709733996
+Recall:    0.9989844278943805
+F1 Score:  0.9258039215686275
