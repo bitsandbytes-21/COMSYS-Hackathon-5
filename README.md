@@ -26,6 +26,8 @@ After training:
 
 The model will be saved as gender_classification.h5
 
+The model will give evaluation metrics for the training data
+
 Training accuracy/loss and validation accuracy/loss will be plotted
 
 Optional: Enable GPU (if local)
@@ -56,10 +58,12 @@ use:
 !pip install tensorflow matplotlib scikit-learn
 ```
 ### Training
-Run task-b.ipynb
+Run task-b-training.ipynb
 Replace the dataset path with your local path
 
 This trains the Siamese model and saves it as face_verifier.h5.
+
+The model gives evaluation on the training data
 
 ### Testing
 
